@@ -1,3 +1,7 @@
+Source:
+untar openaudit.tar.gz into /var/www/html
+other source will locate in /usr/local/open-audit
+
 Customization:
 ## remark line 66 to remove the error in audit domain
 /usr/local/open-audit/other/audit_windows.vbs
