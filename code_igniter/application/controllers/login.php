@@ -172,7 +172,7 @@ class login extends CI_Controller
         if ($license->license == 'none') {
             // OAE is installed but not licensed, show the logon page
             //$data['oae_message'] = "Please try Open-AudIT Enterprise. Contact <a href='https://opmantek.com/contact-us/' style='color: blue;'>Opmantek</a> for a license today<br /> or click <a href='".$oae_url."' style='color: blue;'>here</a> to enter your license details.";
-            $data['oae_message'] = "Start Audit your PC (only support IE or Chrome):<p>1) Click [Audit My PC] button above.<br>2) Execute the file downloaded in step 1.<br>3) Audit starts, please don't close the audit process window.<a href=".$this->config->config['oa_web_folder']."/images/step3.png target=\"_blank\"><img src=".$this->config->config['oa_web_folder'] . "/images/step3.png alt='audit in progress' width='65' height='17'> </a><br>4) Audit completed when audit window closes.<p>Please click the corresponding icon (IE or Chrome) below for more Help<br><a href=".$this->config->config['oa_web_folder']."/help_ie.php target=\"_blank\"><img src=".$this->config->config['oa_web_folder']."/images/logo-IE.png alt='IE' width='65' height='65'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=".$this->config->config['oa_web_folder']."/help_chrome.php target=\"_blank\"><img src=".$this->config->config['oa_web_folder']."/images/logo-chrome.png alt='Chrome' width='65' height='65'></a>";
+            $data['oae_message'] = "Start Audit your PC (only support IE or Chrome):<p>1) Input your staff ID and click [Audit My PC] button above.<br>2) Execute the file downloaded in step 1.<br>3) Audit starts, please don't close the audit process window.<a href=".$this->config->config['oa_web_folder']."/images/step3.png target=\"_blank\"><img src=".$this->config->config['oa_web_folder'] . "/images/step3.png alt='audit in progress' width='65' height='17'> </a><br>4) Audit completed when audit window closes.<p>Please click the corresponding icon (IE or Chrome) below for more Help<br><a href=".$this->config->config['oa_web_folder']."/help_ie.php target=\"_blank\"><img src=".$this->config->config['oa_web_folder']."/images/logo-IE.png alt='IE' width='65' height='65'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=".$this->config->config['oa_web_folder']."/help_chrome.php target=\"_blank\"><img src=".$this->config->config['oa_web_folder']."/images/logo-chrome.png alt='Chrome' width='65' height='65'></a>";
             if (isset($this->config->config['logo']) and ($this->config->config['logo'] == '' or $this->config->config['logo'] == 'logo-banner-oae' or $this->config->config['logo'] == 'logo-banner-oac-oae' or $this->config->config['logo'] == 'oae' or $this->config->config['logo'] == 'oac-oae')) {
                 $this->m_oa_config->update_config('logo', 'logo-banner-oac-oae', '', $this->config->config['timestamp']);
                 $data['logo'] = 'logo-banner-oac-oae';
@@ -186,10 +186,15 @@ class login extends CI_Controller
      *
      * @return [type] [description]
      */
-    public function audit_my_pc()
+    public function audit_my_pc($staffid)
     {
+	//insert stafflog
+	$this->load->model("z_oa_stafflog");
+	$ip=$this->getRealIpAddr();
+        $this->z_oa_stafflog->add_stafflog($staffid, $ip);
+        //$this->debug($staffid);
         $client = 'win';
-        $client = $this->uri->segment(3, 0);
+        $client = $this->uri->segment(4, 0);
         if ($client == '') {
             $client = 'win';
         }
@@ -505,4 +510,29 @@ class login extends CI_Controller
         # echo the result
         echo $output;
     }
+
+    //get client IP
+    function getRealIpAddr() {
+      if (!empty($_SERVER['HTTP_CLIENT_IP'])) {  //check ip from share internet
+        $ip=$_SERVER['HTTP_CLIENT_IP'];
+      } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {  //to check ip is pass from proxy
+        $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];
+      } else {
+        $ip=$_SERVER['REMOTE_ADDR'];
+      }
+      return $ip;
+    }
+    
+    function debug($msg) {
+      echo "<pre>Debug Message:<br>\n\r";
+      die(print_r($msg, TRUE));
+    }
+
+    /*
+    public function stafflog($staffid) {
+      $this->load->model("z_oa_stafflog");
+      $ip=$this->getRealIpAddr();
+      $this->z_oa_stafflog->add_stafflog($staffid, $ip);
+      $this->audit_my_pc();
+    }*/
 }

@@ -1,6 +1,3 @@
-BACKUP YOUR DATA AND FILES before upgrading, really, please.
-There are details at https://community.opmantek.com/display/OA/Home
-
 Customization:
 ## remark line 66 to remove the error in audit domain
 /usr/local/open-audit/other/audit_windows.vbs

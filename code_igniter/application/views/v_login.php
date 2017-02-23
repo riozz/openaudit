@@ -80,7 +80,8 @@ if (isset($form_url) and $form_url != '') {
     $form_url = 'main/list_groups';
 }
 ?>
-<body onload="document.myform.username.focus();">
+<!--<body onload="document.myform.username.focus();">-->
+<body onload="document.myform.staffid.focus();">
     <div id="container">
     <div id="header" style='height: 200px; width: 950px; margin-left: auto; margin-right: auto; padding: 20px; border: 10px;' align='left'>
         <?php $attributes = array('name' => 'myform'); ?>
@@ -90,7 +91,7 @@ if (isset($form_url) and $form_url != '') {
                     <?php
                     if ((file_exists($filename)) and $show == 'y') {
                         ?>
-                        <span align='center'><br /><input type="button" name="audit" id="audit" onclick="audit_my_pc()" value="Audit My PC" /></span><br />&nbsp;
+                        <span align='center'><br /><label for="staffid">Staff ID (without leading zero):</label>&nbsp;<input type="text" name="staffid" id="staffid" size="8" maxlength="8" />&nbsp;&nbsp;&nbsp;<input type="button" name="audit" id="audit" onclick="audit_my_pc()" value="Audit My PC" /></span><br />&nbsp;
                         <?php
 
                     }
@@ -126,10 +127,24 @@ echo "</div>\n";
 <script type="text/javascript">
     function audit_my_pc()
     {
-        location.href = "/open-audit/index.php/login/audit_my_pc";
+	var staffid=document.getElementById("staffid").value;
+	//alert("id:"+staffid);
+	if (staffid.length<5) {
+	  alert("Invalid Staff ID!\rPlease input your staff ID and press [Audit my PC].");
+        } else {
+          location.href = "/open-audit/index.php/login/audit_my_pc/"+staffid;
+        }
+        //location.href = "/open-audit/index.php/login/audit_my_pc";
+        //alert("/open-audit/index.php/login/audit_my_pc/"+staffid);
+	/*
+	  full URL
+          location.href = "/open-audit/index.php/login/audit_my_pc/[staffid]/[OS];
+	  [OS] = win/lin/osx
+	*/
     }
 <?php if ($systems == '0') {
     ?>
+    document.getElementById("staffid").value = "";
     document.getElementById("username").value = "";
     document.getElementById("password").value = "";
     <?php
