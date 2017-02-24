@@ -1,6 +1,10 @@
 Source:
-untar openaudit.tar.gz into /var/www/html
+cp var.www.html.open-audit/* to /var/www/html/open-audit
 other source will locate in /usr/local/open-audit
+
+login:
+nmis
+nm1888
 
 Customization:
 ## remark line 66 to remove the error in audit domain
