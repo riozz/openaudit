@@ -50,7 +50,6 @@
     h2 { border-color:#DBD9C5; border-style:solid; border-width:0pt 0pt 1px; color:#555555; font-size:22px; font-weight:bold; padding:0px 0px 1px; }
     img {border:0;}
     </style>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">//-->
 <script src="<?php echo $this->config->config['oa_web_folder']; ?>/js/jquery-3.1.1.min.js">
 </script>
 </head>

@@ -327,7 +327,6 @@ class login extends CI_Controller
                 }
             }
         }
-        $this->index('ABCC');
     }
 
     /**
