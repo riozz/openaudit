@@ -53,5 +53,20 @@ $db['default']['char_set'] = "utf8";
 $db['default']['dbcollat'] = "utf8_general_ci";
 $db['default']['stricton'] = false;
 
+//hktp staff database
+$db['HKTP']['hostname'] = "localhost";
+$db['HKTP']['username'] = "openaudit";
+$db['HKTP']['password'] = "openauditpassword";
+$db['HKTP']['database'] = "uathktp";
+$db['HKTP']['dbdriver'] = "mysql";
+$db['HKTP']['dbprefix'] = "";
+$db['HKTP']['pconnect'] = true;
+$db['HKTP']['db_debug'] = true;
+$db['HKTP']['cache_on'] = false;
+$db['HKTP']['cachedir'] = "";
+$db['HKTP']['char_set'] = "utf8";
+$db['HKTP']['dbcollat'] = "utf8_general_ci";
+$db['HKTP']['stricton'] = false;
+
 /* End of file database.php */
 /* Location: ./system/application/config/database.php */

@@ -71,12 +71,13 @@ class login extends CI_Controller
      *
      * @return [type] [description]
      */
-    public function index()
+    public function index($errmsg = "")
     {
         $data['title'] = 'Open-AudIT';
         $data['username'] = array('id' => 'username', 'name' => 'username');
         $data['password'] = array('id' => 'password', 'name' => 'password');
         $data['oae_message'] = '';
+        //$data['errmsg'] = 'TEST_'; //$errmsg;
 
         // cater to an unauth page request
         // get the requested page from the session
@@ -172,7 +173,7 @@ class login extends CI_Controller
         if ($license->license == 'none') {
             // OAE is installed but not licensed, show the logon page
             //$data['oae_message'] = "Please try Open-AudIT Enterprise. Contact <a href='https://opmantek.com/contact-us/' style='color: blue;'>Opmantek</a> for a license today<br /> or click <a href='".$oae_url."' style='color: blue;'>here</a> to enter your license details.";
-            $data['oae_message'] = "Start Audit your PC (only support IE or Chrome):<p>1) Input your staff ID and click [Audit My PC] button above.<br>2) Execute the file downloaded in step 1.<br>3) Audit starts, please don't close the audit process window.<a href=".$this->config->config['oa_web_folder']."/images/step3.png target=\"_blank\"><img src=".$this->config->config['oa_web_folder'] . "/images/step3.png alt='audit in progress' width='65' height='17'> </a><br>4) Audit completed when audit window closes.<p>Please click the corresponding icon (IE or Chrome) below for more Help<br><a href=".$this->config->config['oa_web_folder']."/help_ie.php target=\"_blank\"><img src=".$this->config->config['oa_web_folder']."/images/logo-IE.png alt='IE' width='65' height='65'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=".$this->config->config['oa_web_folder']."/help_chrome.php target=\"_blank\"><img src=".$this->config->config['oa_web_folder']."/images/logo-chrome.png alt='Chrome' width='65' height='65'></a>";
+            $data['oae_message'] = "Start Audit your PC (only support IE or Chrome):<p>1) Input your staff ID and click [Audit My PC] button above.<br>2) Keep the file anyway.<br> 3) Execute the file downloaded in step 1.<br>4) Audit starts, please don't close the audit process window.<a href=".$this->config->config['oa_web_folder']."/images/step3.png target=\"_blank\"><img src=".$this->config->config['oa_web_folder'] . "/images/step3.png alt='audit in progress' width='65' height='17'> </a><br>5) Audit completed when audit window closes.<p>Please click the corresponding icon (IE or Chrome) below for more Help<br><a href=".$this->config->config['oa_web_folder']."/help_ie.php target=\"_blank\"><img src=".$this->config->config['oa_web_folder']."/images/logo-IE.png alt='IE' width='65' height='65'></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=".$this->config->config['oa_web_folder']."/help_chrome.php target=\"_blank\"><img src=".$this->config->config['oa_web_folder']."/images/logo-chrome.png alt='Chrome' width='65' height='65'></a>";
             if (isset($this->config->config['logo']) and ($this->config->config['logo'] == '' or $this->config->config['logo'] == 'logo-banner-oae' or $this->config->config['logo'] == 'logo-banner-oac-oae' or $this->config->config['logo'] == 'oae' or $this->config->config['logo'] == 'oac-oae')) {
                 $this->m_oa_config->update_config('logo', 'logo-banner-oac-oae', '', $this->config->config['timestamp']);
                 $data['logo'] = 'logo-banner-oac-oae';
@@ -191,8 +192,9 @@ class login extends CI_Controller
 	//insert stafflog
 	$this->load->model("z_oa_stafflog");
 	$ip=$this->getRealIpAddr();
-        $this->z_oa_stafflog->add_stafflog($staffid, $ip);
-        //$this->debug($staffid);
+        $newformip = $this->formatip($ip);
+        $ret = $this->z_oa_stafflog->add_stafflog($staffid, $newformip);
+        //$this->debug($ret);
         $client = 'win';
         $client = $this->uri->segment(4, 0);
         if ($client == '') {
@@ -325,6 +327,7 @@ class login extends CI_Controller
                 }
             }
         }
+        $this->index('ABCC');
     }
 
     /**
@@ -528,11 +531,23 @@ class login extends CI_Controller
       die(print_r($msg, TRUE));
     }
 
-    /*
-    public function stafflog($staffid) {
+    //check if valid staffid
+    public function checkstaffid($staffid) {
       $this->load->model("z_oa_stafflog");
-      $ip=$this->getRealIpAddr();
-      $this->z_oa_stafflog->add_stafflog($staffid, $ip);
-      $this->audit_my_pc();
-    }*/
+      $ret = $this->z_oa_stafflog->check_staffid($staffid);
+      $data['ret']=$ret;
+      $this->load->view('z_staffid', $data);
+    }
+
+    //format IP to 3 digits in each part
+    public function formatip($ip) {
+      $ippart = explode(".", $ip);
+      $newformip = "";
+      for ($i=0; $i<sizeof($ippart); $i++) {
+        $ippart[$i]=str_pad($ippart[$i],3,"0",STR_PAD_LEFT);
+        $newformip = $newformip . "." . $ippart[$i];
+      }
+      return substr($newformip,1);
+    }
+
 }

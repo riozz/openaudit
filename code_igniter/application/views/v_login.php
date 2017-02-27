@@ -50,6 +50,9 @@
     h2 { border-color:#DBD9C5; border-style:solid; border-width:0pt 0pt 1px; color:#555555; font-size:22px; font-weight:bold; padding:0px 0px 1px; }
     img {border:0;}
     </style>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">//-->
+<script src="<?php echo $this->config->config['oa_web_folder']; ?>/js/jquery-3.1.1.min.js">
+</script>
 </head>
 <?php
 
@@ -91,7 +94,7 @@ if (isset($form_url) and $form_url != '') {
                     <?php
                     if ((file_exists($filename)) and $show == 'y') {
                         ?>
-                        <span align='center'><br /><label for="staffid">Staff ID (without leading zero):</label>&nbsp;<input type="text" name="staffid" id="staffid" size="8" maxlength="8" />&nbsp;&nbsp;&nbsp;<input type="button" name="audit" id="audit" onclick="audit_my_pc()" value="Audit My PC" /></span><br />&nbsp;
+                        <span align='center'><br /><label for="staffid">Staff ID (without leading zero):</label>&nbsp;<input type="text" name="staffid" id="staffid" size="8" maxlength="8" />&nbsp;&nbsp;&nbsp;<input type="button" name="audit" id="audit" value="Audit My PC" /></span><br />&nbsp;<br /><label id="errmsg"></label>
                         <?php
 
                     }
@@ -121,10 +124,53 @@ echo "</div>\n";
 }
 ?>
 <div style='width: 950px; margin-left: auto; margin-right: auto; padding: 20px; border: 10px; text-align: center;' align='left'>
+HKTP Version: <?php echo $this->config->item('web_hktp_version') ?><br/><br/>
 <span style='font-size: 12pt;'>Powered by <br /><a target='_blank' href='https://opmantek.com'>https://opmantek.com</a><br /><br /></span>
 </div>
 </div>
 <script type="text/javascript">
+  $(document).ready(function(){
+   // $("#audit").css("background-color", "yellow");
+    $("#audit").click(function() {
+      var staffid=document.getElementById("staffid").value;
+      //alert("staffid: " + staffid.length);
+      if (staffid.length > 5 ) { //check the ID
+        $.get("/open-audit/index.php/login/checkstaffid/"+staffid, function(data, status) {
+          //alert("Data: " + data + "\nStatus:" + status);
+	  if (data === "ret=1") {
+  	    //$("#errmsg").css("background-color", "red");
+	    $("#errmsg").text("");
+            location.href = "/open-audit/index.php/login/audit_my_pc/"+staffid;
+	    /*
+	      full URL
+              location.href = "/open-audit/index.php/login/audit_my_pc/[staffid]/[OS];
+	      [OS] = win/lin/osx
+	    */
+          } else { //no need to check if lenght <=5
+            showErrMsg();
+          }
+        });
+      } else {
+        showErrMsg();
+      }
+    });
+    $("#staffid").keydown(function (e) { //submit when enter
+      var key = e.which;
+      if (key == 13) {
+        $("#audit").click();
+        return false; 
+      }
+    });
+  });
+
+  function showErrMsg() {
+    var errmsg="Invalid Staff ID!  \rPlease input your staff ID and press [Audit my PC].";
+    alert(errmsg);
+    $("#errmsg").text(errmsg);
+    $("#errmsg").css("color", "red");
+  }
+ 
+/* 
     function audit_my_pc()
     {
 	var staffid=document.getElementById("staffid").value;
@@ -136,12 +182,8 @@ echo "</div>\n";
         }
         //location.href = "/open-audit/index.php/login/audit_my_pc";
         //alert("/open-audit/index.php/login/audit_my_pc/"+staffid);
-	/*
-	  full URL
-          location.href = "/open-audit/index.php/login/audit_my_pc/[staffid]/[OS];
-	  [OS] = win/lin/osx
-	*/
     }
+*/
 <?php if ($systems == '0') {
     ?>
     document.getElementById("staffid").value = "";

@@ -4,6 +4,7 @@ if (! defined('BASEPATH')) {
 }
 $config['web_internal_version'] = '20160810';
 $config['web_display_version'] = '1.12.8.1';
+$config['web_hktp_version'] = '201702';
 # $config['debug'] = FALSE;
 /*
 |--------------------------------------------------------------------------
