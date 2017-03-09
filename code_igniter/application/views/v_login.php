@@ -170,6 +170,11 @@ HKTP Version: <?php echo $this->config->item('web_hktp_version') ?><br/><br/>
   }
  
 /* 
+    9100012:TMH12 spare PC
+    9100026: BOH26 spare PC
+    9100008: ETT8 spare PC
+    9200012: BPF12/BMK spare PC
+    9200004: BNK4 spare PC
     function audit_my_pc()
     {
 	var staffid=document.getElementById("staffid").value;
