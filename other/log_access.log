@@ -125,3 +125,8 @@ Jun 30 01:43:37 mac.local 1853 5 U:Administrator C:devices F:index I:::1 M:Acces
 2017-02-24 18:30:51 hktpituat.pccw.com 8194 5 U:NMIS C:devices F:2 I:10.39.8.20 M:Access
 2017-02-24 18:35:52 hktpituat.pccw.com 23060 5 U:NMIS C:devices F:2 I:10.39.8.20 M:Access
 2017-02-24 18:40:52 hktpituat.pccw.com 23107 5 U:NMIS C:devices F:2 I:10.39.8.20 M:Access
+2017-03-13 10:47:57 hktpituat.pccw.com 16237 5 U:NMIS C:networks F:index I:10.39.8.1 M:Access
+2017-03-13 10:48:13 hktpituat.pccw.com 19723 5 U:NMIS C:networks F:index I:10.39.8.1 M:Access
+2017-03-13 10:49:55 hktpituat.pccw.com 16234 5 U:NMIS C:networks F:create I:10.39.8.1 M:Access
+2017-03-13 10:50:12 hktpituat.pccw.com 20778 5 U:NMIS C:networks F:index I:10.39.8.1 M:Access
+2017-03-13 10:50:12 hktpituat.pccw.com 20778 5 U:NMIS C:networks F:index I:10.39.8.1 M:Access

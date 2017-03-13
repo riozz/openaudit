@@ -110,7 +110,7 @@ if (isset($form_url) and $form_url != '') {
             <?php echo form_close(); ?>
             <?php if ($systems >= '0') {
             echo "<div style='width: 100%; text-align: center;'><br />&nbsp;<br />
-            <span style='font-size: 10pt; font-style: italic; color: blue;' >Audit process will only retrieve PC hardwares, softwares, <br>operating system settings, network settings and services information.</span><br />
+            <span style='font-size: 10pt; font-style: italic; color: blue;' >Audit process will only retrieve PC hardwares, softwares, operating system settings, <br>network settings and services information for PC inventory purpose.</span><br />
             <!--<span style='font-size: 10pt; font-style: italic; color: green;'>Initial login credentials are admin .</span><br />-->
             <span style='font-size: 10pt; font-style: italic; color: red;'  >NO personal information will be grabbed in the audit process.</span><br />
             <br /></div>\n";
@@ -124,7 +124,8 @@ echo "</div>\n";
 ?>
 <div style='width: 950px; margin-left: auto; margin-right: auto; padding: 20px; border: 10px; text-align: center;' align='left'>
 HKTP Version: <?php echo $this->config->item('web_hktp_version') ?><br/><br/>
-<span style='font-size: 12pt;'>Powered by <br /><a target='_blank' href='https://opmantek.com'>https://opmantek.com</a><br /><br /></span>
+<!--<span style='font-size: 12pt; color:blue;'>Powered by <br /><a target='_blank' href='https://opmantek.com'>https://opmantek.com</a><br /><br /></span>-->
+<span style='font-size: 12pt; color:#f8f8f8;'>Powered by <br />https://opmantek.com<br /><br /></span>
 </div>
 </div>
 <script type="text/javascript">
