@@ -23,7 +23,7 @@ set s.comments=f.name,
 s.location_suite = f.ccc,
 s.location_room = f.location;
 
--- update staffinfo (v2) NOT use
+-- update staffinfo (v2) 
 update system s join 
 (select z.id,z.updatetime,date(z.updatetime),curdate(),z.ip,s.name,s.staffid,s.ccc,s.location from 
 uathktp.staff s join z_stafflog z on s.staffid=z.staffid where date(z.updatetime) = curdate()) j
@@ -32,7 +32,7 @@ set s.comments=j.name,
 s.owner=j.staffid,
 s.location_suite=j.ccc,
 s.location_room=j.location
-where date(s.last_seen)=date(j.updatetime) and date(j.updatetime) = curdate();
+where s.owner=0 and date(s.last_seen)=date(j.updatetime) and date(j.updatetime) = curdate();
 
 
 -- report to show who did/didn't pc audit

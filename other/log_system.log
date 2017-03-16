@@ -995,3 +995,472 @@
 2017-03-13 11:33:36 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.65.126.35 M:No input supplied (share) for  (pccw-tmh12)
 2017-03-13 11:33:36 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.65.126.35 M:No input supplied (task) for  (pccw-tmh12)
 2017-03-13 11:33:36 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.65.126.35 M:No input supplied (vm) for  (pccw-tmh12)
+2017-03-13 12:29:45 hktpituat.pccw.com 16234 5 U:- C:login F:index I:10.39.8.21 M:config::update_config called by 
+2017-03-13 12:29:58 hktpituat.pccw.com 16233 5 U:- C:main F:list_groups I:10.39.8.21 M:Invalid username of 1340850 supplied or user not active (html request)
+2017-03-13 12:29:58 hktpituat.pccw.com 16233 5 U:- C:login F:index I:10.39.8.21 M:config::update_config called by 
+2017-03-13 12:30:47 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.21 M:No input supplied (file) for  (pc01340850)
+2017-03-13 12:30:47 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.21 M:No input supplied (module) for  (pc01340850)
+2017-03-13 12:30:47 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.21 M:No input supplied (netstat) for  (pc01340850)
+2017-03-13 12:30:47 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.21 M:No input supplied (scsi) for  (pc01340850)
+2017-03-13 12:30:47 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.21 M:No input supplied (server) for  (pc01340850)
+2017-03-13 12:30:47 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.21 M:No input supplied (server_item) for  (pc01340850)
+2017-03-13 12:30:47 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.21 M:No input supplied (task) for  (pc01340850)
+2017-03-13 12:30:47 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.21 M:No input supplied (vm) for  (pc01340850)
+2017-03-13 12:32:58 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.39.8.2 M:config::update_config called by 
+2017-03-13 12:34:46 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.39.8.2 M:No input supplied (file) for  (pc01349430)
+2017-03-13 12:34:46 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.39.8.2 M:No input supplied (module) for  (pc01349430)
+2017-03-13 12:34:46 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.39.8.2 M:No input supplied (netstat) for  (pc01349430)
+2017-03-13 12:34:46 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.39.8.2 M:No input supplied (scsi) for  (pc01349430)
+2017-03-13 12:34:46 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.39.8.2 M:No input supplied (server) for  (pc01349430)
+2017-03-13 12:34:46 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.39.8.2 M:No input supplied (server_item) for  (pc01349430)
+2017-03-13 12:34:46 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.39.8.2 M:No input supplied (task) for  (pc01349430)
+2017-03-13 12:34:46 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.39.8.2 M:No input supplied (vm) for  (pc01349430)
+2017-03-13 12:41:44 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.39.8.13 M:config::update_config called by 
+2017-03-13 12:41:53 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.39.8.3 M:config::update_config called by 
+2017-03-13 12:42:02 hktpituat.pccw.com 20768 5 U:- C:main F:list_groups I:10.39.8.13 M:Invalid username of 428078 supplied or user not active (html request)
+2017-03-13 12:42:02 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.39.8.13 M:config::update_config called by 
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (file) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (module) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (netstat) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (optical) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (scsi) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (server) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (server_item) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (share) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (task) for  (pc01153824)
+2017-03-13 12:42:38 hktpituat.pccw.com 19723 5 U:- C:system F:add_system I:10.39.8.3 M:No input supplied (vm) for  (pc01153824)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (file) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (module) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (netstat) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (optical) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (scsi) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (server) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (server_item) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (share) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (task) for  (ett814lzkbx)
+2017-03-13 12:43:38 hktpituat.pccw.com 16236 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (vm) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (file) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (module) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (netstat) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (optical) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (scsi) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (server) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (server_item) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (share) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (task) for  (ett814lzkbx)
+2017-03-13 12:46:42 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.13 M:No input supplied (vm) for  (ett814lzkbx)
+2017-03-14 10:59:26 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.39.8.1 M:config::update_config called by 
+2017-03-14 11:00:25 hktpituat.pccw.com 19723 5 U:- C:login F:index I:10.95.133.44 M:config::update_config called by 
+2017-03-14 11:02:23 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.95.133.44 M:config::update_config called by 
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (file) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (module) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (netstat) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (optical) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (pagefile) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (scsi) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (server) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (server_item) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (share) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:04:43 hktpituat.pccw.com 19721 5 U:- C:system F:add_system I:10.95.133.44 M:No input supplied (vm) for 10.95.133.44 (hktmhw-12024-)
+2017-03-14 11:24:31 hktpituat.pccw.com 16236 5 U:- C:login F:index I:10.39.8.1 M:config::update_config called by 
+2017-03-14 11:25:57 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.39.8.4 M:config::update_config called by 
+2017-03-14 11:26:38 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.12.251.3 M:config::update_config called by 
+2017-03-14 11:26:44 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.39.8.4 M:config::update_config called by 
+2017-03-14 11:27:05 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.12.251.3 M:config::update_config called by 
+2017-03-14 11:27:25 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.39.8.40 M:config::update_config called by 
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (file) for  (pc01371129b)
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (module) for  (pc01371129b)
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (netstat) for  (pc01371129b)
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (scsi) for  (pc01371129b)
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (server) for  (pc01371129b)
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (server_item) for  (pc01371129b)
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (share) for  (pc01371129b)
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (task) for  (pc01371129b)
+2017-03-14 11:27:53 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.39.8.4 M:No input supplied (vm) for  (pc01371129b)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (file) for  (pc01360965)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (module) for  (pc01360965)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (netstat) for  (pc01360965)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (scsi) for  (pc01360965)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (server) for  (pc01360965)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (server_item) for  (pc01360965)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (share) for  (pc01360965)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (task) for  (pc01360965)
+2017-03-14 11:28:40 hktpituat.pccw.com 16233 5 U:- C:system F:add_system I:10.39.8.26 M:No input supplied (vm) for  (pc01360965)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (file) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (module) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (netstat) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (optical) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (scsi) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (server) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (server_item) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (share) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (task) for  (pc01441179a)
+2017-03-14 11:28:58 hktpituat.pccw.com 20778 5 U:- C:system F:add_system I:10.39.8.40 M:No input supplied (vm) for  (pc01441179a)
+2017-03-14 11:30:48 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-14 11:31:09 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-14 11:35:17 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.39.8.35 M:config::update_config called by 
+2017-03-14 11:36:39 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.39.8.35 M:config::update_config called by 
+2017-03-14 11:36:42 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.39.8.35 M:config::update_config called by 
+2017-03-14 11:44:08 hktpituat.pccw.com 16233 5 U:- C:login F:index I:10.39.8.1 M:config::update_config called by 
+2017-03-14 11:47:23 hktpituat.pccw.com 16236 5 U:- C:login F:index I:10.39.8.32 M:config::update_config called by 
+2017-03-14 11:52:28 hktpituat.pccw.com 20778 5 U:- C:login F:index I:10.39.8.30 M:config::update_config called by 
+2017-03-14 11:52:53 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.39.8.46 M:config::update_config called by 
+2017-03-14 12:23:52 hktpituat.pccw.com 16236 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-14 12:23:53 hktpituat.pccw.com 16236 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-14 12:29:46 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.39.8.38 M:config::update_config called by 
+2017-03-14 12:31:21 hktpituat.pccw.com 16233 5 U:- C:login F:index I:10.39.8.30 M:config::update_config called by 
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (file) for  (pc01095678)
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (module) for  (pc01095678)
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (netstat) for  (pc01095678)
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (scsi) for  (pc01095678)
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (server) for  (pc01095678)
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (server_item) for  (pc01095678)
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (share) for  (pc01095678)
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (task) for  (pc01095678)
+2017-03-14 12:32:06 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.39.8.30 M:No input supplied (vm) for  (pc01095678)
+2017-03-14 12:34:43 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.39.8.32 M:config::update_config called by 
+2017-03-14 15:03:38 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (file) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (module) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (netstat) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (optical) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (pagefile) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (scsi) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (server) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (server_item) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (share) for 10.65.126.118 (pc01343078)
+2017-03-14 15:04:49 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.65.126.118 M:No input supplied (vm) for 10.65.126.118 (pc01343078)
+2017-03-14 16:14:50 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.198.100.3 M:config::update_config called by 
+2017-03-14 17:16:34 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.39.8.17 M:config::update_config called by 
+2017-03-14 17:37:43 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.39.8.7 M:config::update_config called by 
+2017-03-14 17:38:24 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.39.8.7 M:config::update_config called by 
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (file) for  (pc00498840a)
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (module) for  (pc00498840a)
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (netstat) for  (pc00498840a)
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (scsi) for  (pc00498840a)
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (server) for  (pc00498840a)
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (server_item) for  (pc00498840a)
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (share) for  (pc00498840a)
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (task) for  (pc00498840a)
+2017-03-14 17:40:01 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.7 M:No input supplied (vm) for  (pc00498840a)
+2017-03-14 18:14:19 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.39.8.1 M:config::update_config called by 
+2017-03-14 18:15:29 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.39.8.1 M:config::update_config called by 
+2017-03-15 11:26:49 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.39.8.1 M:config::update_config called by 
+2017-03-15 12:32:44 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.39.8.46 M:config::update_config called by 
+2017-03-16 10:16:43 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.39.8.1 M:config::update_config called by 
+2017-03-16 10:47:06 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.39.8.46 M:config::update_config called by 
+2017-03-16 11:25:22 hktpituat.pccw.com 4451 5 U:- C:login F:index I:10.39.8.35 M:config::update_config called by 
+2017-03-16 11:26:50 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.39.8.32 M:config::update_config called by 
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (file) for  (pc00404277a)
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (module) for  (pc00404277a)
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (netstat) for  (pc00404277a)
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (scsi) for  (pc00404277a)
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (server) for  (pc00404277a)
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (server_item) for  (pc00404277a)
+2017-03-16 11:27:32 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.39.8.32 M:config::update_config called by 
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (share) for  (pc00404277a)
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (task) for  (pc00404277a)
+2017-03-16 11:27:31 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.35 M:No input supplied (vm) for  (pc00404277a)
+2017-03-16 11:27:43 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.39.8.32 M:config::update_config called by 
+2017-03-16 11:28:23 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.39.8.46 M:config::update_config called by 
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (file) for  (pc00259259b)
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (module) for  (pc00259259b)
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (netstat) for  (pc00259259b)
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (scsi) for  (pc00259259b)
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (server) for  (pc00259259b)
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (server_item) for  (pc00259259b)
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (share) for  (pc00259259b)
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (task) for  (pc00259259b)
+2017-03-16 11:28:41 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.32 M:No input supplied (vm) for  (pc00259259b)
+2017-03-16 11:29:32 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.39.8.46 M:config::update_config called by 
+2017-03-16 11:29:57 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.39.8.28 M:config::update_config called by 
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (file) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (module) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (netstat) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (optical) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (scsi) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (server) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (server_item) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (share) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (task) for  (pc01480813)
+2017-03-16 11:30:27 hktpituat.pccw.com 3027 5 U:- C:system F:add_system I:10.39.8.46 M:No input supplied (vm) for  (pc01480813)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (file) for  (pc01326925)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (module) for  (pc01326925)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (netstat) for  (pc01326925)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (scsi) for  (pc01326925)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (server) for  (pc01326925)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (server_item) for  (pc01326925)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (share) for  (pc01326925)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (task) for  (pc01326925)
+2017-03-16 11:30:37 hktpituat.pccw.com 19714 5 U:- C:system F:add_system I:10.39.8.28 M:No input supplied (vm) for  (pc01326925)
+2017-03-16 14:08:38 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.39.8.20 M:config::update_config called by 
+2017-03-16 14:10:43 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.95.133.32 M:config::update_config called by 
+2017-03-16 14:11:14 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.39.8.20 M:config::update_config called by 
+2017-03-16 14:14:44 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.95.133.78 M:config::update_config called by 
+2017-03-16 14:15:00 hktpituat.pccw.com 4451 5 U:- C:login F:index I:10.198.100.2 M:config::update_config called by 
+2017-03-16 14:16:21 hktpituat.pccw.com 4451 5 U:- C:login F:index I:10.95.133.78 M:config::update_config called by 
+2017-03-16 14:16:22 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.95.133.78 M:config::update_config called by 
+2017-03-16 14:16:27 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.95.133.112 M:config::update_config called by 
+2017-03-16 14:24:48 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.198.100.2 M:config::update_config called by 
+2017-03-16 14:26:35 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.198.100.2 M:config::update_config called by 
+2017-03-16 14:26:56 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.12.251.3 M:config::update_config called by 
+2017-03-16 14:28:21 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 14:29:24 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.12.251.2 M:config::update_config called by 
+2017-03-16 14:30:38 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (file) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (module) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (netstat) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (optical) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (scsi) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (server) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (server_item) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (share) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (task) for  (hktmhw-12021)
+2017-03-16 14:33:44 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.41 M:No input supplied (vm) for  (hktmhw-12021)
+2017-03-16 14:36:22 hktpituat.pccw.com 19721 5 U:- C:login F:index I:10.198.100.4 M:config::update_config called by 
+2017-03-16 14:36:41 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.12.251.3 M:config::update_config called by 
+2017-03-16 14:39:34 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.95.133.54 M:config::update_config called by 
+2017-03-16 14:40:13 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 14:41:14 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 14:43:56 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 14:44:14 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (file) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (module) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (netstat) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (optical) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (pagefile) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (scsi) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (server) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (server_item) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (share) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:45:43 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.42 M:No input supplied (vm) for 10.95.133.42 (hktmhw-12022h)
+2017-03-16 14:46:01 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 14:46:48 hktpituat.pccw.com 2323 5 U:- C:login F:index I:136.140.102.26 M:config::update_config called by 
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (file) for  (hkbnkw-04015a)
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (module) for  (hkbnkw-04015a)
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (netstat) for  (hkbnkw-04015a)
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (optical) for  (hkbnkw-04015a)
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (scsi) for  (hkbnkw-04015a)
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (server) for  (hkbnkw-04015a)
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (server_item) for  (hkbnkw-04015a)
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (task) for  (hkbnkw-04015a)
+2017-03-16 14:48:26 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.26 M:No input supplied (vm) for  (hkbnkw-04015a)
+2017-03-16 14:48:41 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.198.100.3 M:config::update_config called by 
+2017-03-16 14:49:24 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 14:50:34 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (file) for  (hkbnkw-04106a)
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (module) for  (hkbnkw-04106a)
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (netstat) for  (hkbnkw-04106a)
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (optical) for  (hkbnkw-04106a)
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (scsi) for  (hkbnkw-04106a)
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (server) for  (hkbnkw-04106a)
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (server_item) for  (hkbnkw-04106a)
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (task) for  (hkbnkw-04106a)
+2017-03-16 14:50:50 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:136.140.102.107 M:No input supplied (vm) for  (hkbnkw-04106a)
+2017-03-16 14:51:07 hktpituat.pccw.com 2322 5 U:- C:main F:list_groups I:10.12.251.2 M:Invalid username of 1048867 supplied or user not active (html request)
+2017-03-16 14:51:07 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.12.251.2 M:config::update_config called by 
+2017-03-16 14:51:13 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 14:51:15 hktpituat.pccw.com 3027 5 U:- C:main F:list_groups I:10.12.251.1 M:Invalid username of 1048867 supplied or user not active (html request)
+2017-03-16 14:51:15 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 14:52:23 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.12.251.2 M:config::update_config called by 
+2017-03-16 14:53:23 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (file) for  (hkbnkw-04104)
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (module) for  (hkbnkw-04104)
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (netstat) for  (hkbnkw-04104)
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (optical) for  (hkbnkw-04104)
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (scsi) for  (hkbnkw-04104)
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (server) for  (hkbnkw-04104)
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (server_item) for  (hkbnkw-04104)
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (task) for  (hkbnkw-04104)
+2017-03-16 14:55:00 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:136.140.102.105 M:No input supplied (vm) for  (hkbnkw-04104)
+2017-03-16 15:00:12 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.12.251.2 M:config::update_config called by 
+2017-03-16 15:22:44 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 15:23:45 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.39.8.5 M:config::update_config called by 
+2017-03-16 15:25:58 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 15:25:58 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (file) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (module) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (netstat) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (optical) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (pagefile) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (scsi) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (server) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (server_item) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (share) for 10.39.8.5 (pc01456334)
+2017-03-16 15:27:22 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.39.8.5 M:No input supplied (vm) for 10.39.8.5 (pc01456334)
+2017-03-16 15:31:18 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.12.251.3 M:config::update_config called by 
+2017-03-16 15:31:39 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.198.100.4 M:config::update_config called by 
+2017-03-16 15:31:42 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.198.100.2 M:config::update_config called by 
+2017-03-16 15:33:24 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.198.100.2 M:config::update_config called by 
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (file) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (module) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (netstat) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (optical) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (pagefile) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (scsi) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (server) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (server_item) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (share) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:34:27 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (vm) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:21 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.95.133.94 M:config::update_config called by 
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (file) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (module) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (netstat) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (optical) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (pagefile) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (scsi) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (server) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (server_item) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (share) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:35:45 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.53 M:No input supplied (vm) for 10.95.133.53 (hktmhw-12033s)
+2017-03-16 15:37:09 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 15:49:20 hktpituat.pccw.com 2322 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 15:57:10 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 15:57:11 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.12.251.2 M:config::update_config called by 
+2017-03-16 16:04:44 hktpituat.pccw.com 4451 5 U:- C:login F:index I:10.198.100.3 M:config::update_config called by 
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (file) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (module) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (netstat) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (pagefile) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (scsi) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (server) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (server_item) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (share) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:07:24 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.62 M:No input supplied (vm) for 10.95.133.62 (hktmhw-12042q)
+2017-03-16 16:10:45 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 17:05:36 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.95.133.54 M:config::update_config called by 
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (file) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (module) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (netstat) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (optical) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (scsi) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (server) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (server_item) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (share) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (task) for  (hktmhw-12034f)
+2017-03-16 17:06:19 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (vm) for  (hktmhw-12034f)
+2017-03-16 17:07:22 hktpituat.pccw.com 4451 5 U:- C:login F:index I:10.12.251.2 M:config::update_config called by 
+2017-03-16 17:08:56 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.12.251.3 M:config::update_config called by 
+2017-03-16 17:09:49 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.95.133.54 M:config::update_config called by 
+2017-03-16 17:10:09 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.198.100.3 M:config::update_config called by 
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (file) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (module) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (netstat) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (optical) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (pagefile) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (scsi) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (server) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (server_item) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (share) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:10:15 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.98 M:No input supplied (vm) for 10.95.133.98 (hktmhw-12078s)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (file) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (module) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (netstat) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (optical) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (pagefile) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (scsi) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (server) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (server_item) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (share) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:47 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.87 M:No input supplied (vm) for 10.95.133.87 (hktmhw-12067q)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (file) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (module) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (netstat) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (optical) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (scsi) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (server) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (server_item) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (share) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (task) for  (hktmhw-12074b)
+2017-03-16 17:11:57 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.94 M:No input supplied (vm) for  (hktmhw-12074b)
+2017-03-16 17:13:34 hktpituat.pccw.com 19714 5 U:- C:login F:index I:10.198.100.2 M:config::update_config called by 
+2017-03-16 17:14:29 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.95.133.94 M:config::update_config called by 
+2017-03-16 17:14:58 hktpituat.pccw.com 20768 5 U:- C:main F:list_groups I:10.87.10.207 M:Invalid username of 1484104 supplied or user not active (html request)
+2017-03-16 17:14:58 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 17:15:52 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.198.100.4 M:config::update_config called by 
+2017-03-16 17:16:30 hktpituat.pccw.com 31223 5 U:- C:login F:index I:10.12.251.2 M:config::update_config called by 
+2017-03-16 17:19:34 hktpituat.pccw.com 31223 5 U:- C:login F:index I:10.95.133.54 M:config::update_config called by 
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (file) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (module) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (netstat) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (optical) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (scsi) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (server) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (server_item) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (share) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (task) for  (hktmhw-12034f)
+2017-03-16 17:20:06 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.54 M:No input supplied (vm) for  (hktmhw-12034f)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (file) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (module) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (netstat) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (optical) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (pagefile) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (scsi) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (server) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (server_item) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (share) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:22:52 hktpituat.pccw.com 4451 5 U:- C:system F:add_system I:10.95.133.95 M:No input supplied (vm) for 10.95.133.95 (hktmhw-12075v)
+2017-03-16 17:25:41 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.95.133.32 M:config::update_config called by 
+2017-03-16 17:27:17 hktpituat.pccw.com 31223 5 U:- C:login F:index I:10.12.251.3 M:config::update_config called by 
+2017-03-16 17:27:19 hktpituat.pccw.com 16237 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 17:27:48 hktpituat.pccw.com 19724 5 U:- C:login F:index I:10.198.100.3 M:config::update_config called by 
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (file) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (module) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (netstat) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (optical) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (pagefile) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (scsi) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server_item) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:28:36 hktpituat.pccw.com 2322 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (vm) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:36:19 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (file) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (module) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (netstat) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (optical) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (pagefile) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (scsi) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server_item) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:37:57 hktpituat.pccw.com 16237 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (vm) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:35 hktpituat.pccw.com 6327 5 U:- C:login F:index I:10.12.251.2 M:config::update_config called by 
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (file) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (module) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (netstat) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (optical) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (pagefile) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (scsi) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server_item) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:46:40 hktpituat.pccw.com 2323 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (vm) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (file) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (module) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (netstat) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (optical) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (pagefile) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (scsi) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server_item) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:47:54 hktpituat.pccw.com 20768 5 U:- C:login F:index I:10.87.10.207 M:config::update_config called by 
+2017-03-16 17:47:51 hktpituat.pccw.com 31223 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (vm) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (file) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (module) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (netstat) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (optical) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (pagefile) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (scsi) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (server_item) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:48:31 hktpituat.pccw.com 6327 5 U:- C:system F:add_system I:10.95.133.91 M:No input supplied (vm) for 10.95.133.91 (hktmhw-12071h)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (file) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (module) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (netstat) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (optical) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (pagefile) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (scsi) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (server) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (server_item) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (share) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:49:31 hktpituat.pccw.com 19724 5 U:- C:system F:add_system I:10.95.133.99 M:No input supplied (vm) for 10.95.133.99 (hktmhw-12079s)
+2017-03-16 17:54:37 hktpituat.pccw.com 2323 5 U:- C:login F:index I:10.12.251.1 M:config::update_config called by 
+2017-03-16 18:03:25 hktpituat.pccw.com 3027 5 U:- C:login F:index I:10.12.251.3 M:config::update_config called by 
